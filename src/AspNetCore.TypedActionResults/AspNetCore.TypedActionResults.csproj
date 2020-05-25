@@ -15,7 +15,7 @@
       `Task&lt;ActionResult&lt;MyReturnType&gt;&gt;`
     </Description>
     <PackageId>Test.AspNetCore.TypedActionResults</PackageId>
-    <PackageLicenseExpression>BSD-1-Clause</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT-0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/MarcelGosselin/AspNetCore.TypedActionResults</PackageProjectUrl>
     <PackageTags>aspnetcore;actionresult;typed</PackageTags>
     <RepositoryUrl>https://github.com/MarcelGosselin/AspNetCore.TypedActionResults.git</RepositoryUrl>
