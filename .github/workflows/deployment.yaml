@@ -21,7 +21,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.1.101
+        dotnet-version: 3.1.300
 
     - name: Install dependencies
       run: dotnet restore
@@ -35,4 +35,4 @@ jobs:
     - name: Push to nuget.org
       env:
         NUGET_APIKEY: ${{ secrets.NUGET_APIKEY }}
-      run: dotnet nuget push "src/AspNetCore.TypedActionResults/bin/Release/AspNetCore.TypedActionResults.*.nupkg" -n -s https://api.nuget.org/v3/index.json -k $env:NUGET_APIKEY
+      run: dotnet nuget push "src/AspNetCore.TypedActionResults/bin/Release/AspNetCore.TypedActionResults.*.nupkg" -s https://api.nuget.org/v3/index.json -k $env:NUGET_APIKEY
