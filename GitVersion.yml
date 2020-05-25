@@ -1,0 +1,11 @@
+mode: ContinuousDelivery
+branches:
+  # override increment to prevent build Warning: 
+  #     Failed to inherit Increment branch configuration, ended up with: master, origin/master
+  pull-request:
+    increment: Patch
+  feature:
+    increment: Patch
+ignore:
+  sha: []
+merge-message-formats: {}
