@@ -14,7 +14,7 @@
       allow compile-time checks that what is returned matches the return type in
       `Task&lt;ActionResult&lt;MyReturnType&gt;&gt;`
     </Description>
-    <PackageLicenseExpression>BSD-1-Clause</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT-0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/MarcelGosselin/AspNetCore.TypedActionResults</PackageProjectUrl>
     <PackageTags>aspnetcore;actionresult;typed</PackageTags>
     <RepositoryUrl>https://github.com/MarcelGosselin/AspNetCore.TypedActionResults.git</RepositoryUrl>
