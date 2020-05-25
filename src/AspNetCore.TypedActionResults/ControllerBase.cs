@@ -4,6 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetCore.TypedActionResults
 {
+    /// <summary>
+    /// Defines a base controller with generic overrides of response-creating methods
+    /// that will ensure that a method with a return type of <c>Task&lt;ActionResult&lt;MyType&gt;&gt;</c>
+    /// will only compile if you return a response of type <c>MyType</c>.
+    /// </summary>
     public class ControllerBase
         : Microsoft.AspNetCore.Mvc.ControllerBase
     {
